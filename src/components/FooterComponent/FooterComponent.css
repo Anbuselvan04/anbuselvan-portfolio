@@ -1,0 +1,87 @@
+.footer {
+  width: 100%;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(51, 255, 252, 0.2);
+  box-shadow: 0 -4px 15px rgba(51, 255, 252, 0.08);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footer-text {
+  color: white;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  font-family: "Share Tech", sans-serif;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  color: #33fffc;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Share Tech", sans-serif;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+/* Cyan glowing underline */
+.footer-link:hover {
+  color: white;
+  text-shadow: 0 0 7px #33fffc;
+}
+
+.footer-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: #33fffc;
+  box-shadow: 0 0 8px #33fffc;
+  transition: width 0.3s;
+}
+
+.footer-link:hover::after {
+  width: 100%;
+}
+
+/* Responsive Footer */
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+
+
+.footer-icons {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.footer-icon {
+  color: #33fffc;
+  font-size: 1.7rem;
+  transition: 0.3s ease;
+  text-shadow: 0 0 7px #33fffc;
+}
+
+.footer-icon:hover {
+  color: white;
+  text-shadow: 0 0 12px #33fffc, 0 0 20px #33fffc;
+  transform: scale(1.15);
+}

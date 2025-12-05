@@ -1,0 +1,103 @@
+.contact-section {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  padding: 2rem 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 550px;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(51, 255, 252, 0.25);
+  box-shadow: 0 0 25px rgba(51, 255, 252, 0.25);
+  color: white;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 1px;
+}
+
+.contact-subtitle {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  font-family: "Share Tech", sans-serif;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-family: "Share Tech", sans-serif;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.form-group input,
+.form-group textarea {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.7rem 0.9rem;
+  color: white;
+  font-size: 0.95rem;
+  outline: none;
+  font-family: "Share Tech", sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #33fffc;
+  box-shadow: 0 0 10px rgba(51, 255, 252, 0.6);
+}
+
+.contact-btn {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  border: 1px solid #33fffc;
+  background: transparent;
+  color: #33fffc;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: "Share Tech", sans-serif;
+}
+
+.contact-btn:hover {
+  background: #33fffc;
+  color: #000;
+  box-shadow: 0 0 18px rgba(51, 255, 252, 0.7);
+  transform: translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 2rem 1.4rem;
+  }
+}
