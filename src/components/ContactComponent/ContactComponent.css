@@ -33,7 +33,7 @@
   opacity: 0.85;
   text-align: center;
   margin-bottom: 1.8rem;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .contact-form {
@@ -63,7 +63,7 @@
   color: white;
   font-size: 0.95rem;
   outline: none;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .form-group input:focus,
@@ -85,7 +85,7 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: 0.3s ease;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .contact-btn:hover {

@@ -34,7 +34,7 @@ const ProjectsComponent = () => {
     {
       title: "Library Management Frontend",
       desc: "Frontend UI for library operations integrated with backend APIs, offering a clean user experience.",
-      tech: ["React.js","HTML", "CSS", "Axios", "REST API"],
+      tech: ["React.js", "HTML", "CSS", "Axios", "REST API"],
       live: "#",
       github: "https://github.com/Anbuselvan04/library-management-fe",
     },
@@ -58,7 +58,18 @@ const ProjectsComponent = () => {
             </div>
 
             <div className="project-buttons">
-              <a href={project.live} className="btn-live" target="_blank">Live</a>
+              <a
+                href={project.live || "#"}
+                className="btn-live"
+                target="_blank"
+                onClick={(e) => {
+                  if (!project.live || project.live === "#") {
+                    e.preventDefault(); 
+                  }
+                }}
+              >
+                Live
+              </a>
               <a href={project.github} className="btn-github" target="_blank">GitHub</a>
             </div>
 

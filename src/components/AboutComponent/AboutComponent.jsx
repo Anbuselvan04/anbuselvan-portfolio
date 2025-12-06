@@ -26,7 +26,7 @@ const AboutComponent = () => {
 
         <div className="about-stats">
           <div className="stat-card">
-            <span className="stat-value">&lt;1</span>
+            <span className="stat-value">&lt; 1</span>
             <span className="stat-label">Years Experience</span>
           </div>
           <div className="stat-card">

@@ -37,7 +37,7 @@
 .project-title {
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #33fffc;
 }
 
@@ -46,7 +46,7 @@
   opacity: 0.9;
   line-height: 1.4rem;
   margin-bottom: 1rem;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .project-tech {
@@ -63,7 +63,7 @@
   border-radius: 6px;
   font-size: 0.8rem;
   color: #33fffc;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .project-buttons {
@@ -80,7 +80,7 @@
   border: 1px solid rgba(51, 255, 252, 0.4);
   color: #33fffc;
   text-decoration: none;
-  font-family: "Share Tech", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   transition: 0.3s ease;
 }
 
